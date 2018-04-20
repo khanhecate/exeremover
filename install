@@ -4,6 +4,7 @@ if [[ $EUID -ne 0 ]]; then
         exit
         else
         echo "instaling..."
+        sleep 1
 fi
 cp .rmall rmall
 chmod 755 rmall
