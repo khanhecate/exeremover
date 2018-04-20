@@ -1,0 +1,13 @@
+#!/bin/bash
+if [[ $EUID -ne 0 ]]; then
+	echo "are you root ?"
+	exit 
+	else
+	cp .rmallv rmall
+	chmod 755 rmall
+	chwon 755 rmall
+	mv rmall /usr/bin/
+	echo "install done "
+	echo "to use this run comand \"rmall\" on terminal"
+	echo "you can run on root mode or user mode"
+fi

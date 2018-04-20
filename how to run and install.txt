@@ -1,0 +1,6 @@
+to install run comand this on terminal
+#chmod 755 install
+#./install
+
+and to run you can run this comand on terminal
+#rmall

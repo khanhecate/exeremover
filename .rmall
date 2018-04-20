@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo -n "Lokasi yang akan di basmi : "
+read area
+echo -n "jenis file yang akan di basmi : "
+read korban
+find $area -type f -iname *.$korban -exec rm -rf {} \;
+echo "rampung"
+#by khan hecate
