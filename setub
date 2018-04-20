@@ -1,6 +1,0 @@
-#!/bin/bash
-clear
-echo -n "Lokasi yang akan di basmi : "
-read area
-sudo find $area -type f -iname '*.exe' -exec rm -rf {} \; #you can change format file to destroyed on "exe"
-echo "rampung"
